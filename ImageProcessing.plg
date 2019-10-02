@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageProcessing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPCF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageProcessing.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Book\FinalImageProcessing\FinalImageProcessing\DlgRecMatch.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\Enhance.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\DWT.CPP"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\FreTrans.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\DlgReg.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\ImageView.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\ImageAnalysis.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\restore.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\ImageCoding.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\cdib.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\ImageProcessingDoc.cpp"
+"E:\Book\FinalImageProcessing\FinalImageProcessing\ImageProcessingView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPCF.tmp" 
+Creating temporary file "C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPD0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageProcessing.pdb" /debug /machine:I386 /out:"Debug/ImageProcessing.exe" /pdbtype:sept 
+.\Debug\SegApi.obj
+.\Debug\DlgEhnLinTrans.obj
+.\Debug\DlgEnhColor.obj
+.\Debug\DlgHistShow1.obj
+.\Debug\DlgMedian.obj
+.\Debug\DlgRecMatch.obj
+.\Debug\DlgSmooth.obj
+.\Debug\Enhance.obj
+.\Debug\DWT.OBJ
+.\Debug\FreTrans.obj
+.\Debug\DlgAftReg.obj
+.\Debug\DlgReg.obj
+.\Debug\Motion.obj
+.\Debug\ImageView.obj
+.\Debug\ImageAnalysis.obj
+.\Debug\restore.obj
+.\Debug\DlgArith.obj
+.\Debug\DlgBitPlane.obj
+.\Debug\DlgHuffman.obj
+.\Debug\DlgShannon.obj
+.\Debug\ImageCoding.obj
+.\Debug\cdib.obj
+.\Debug\ChildFrm.obj
+.\Debug\DIBPrcs.obj
+.\Debug\ImageProcessing.obj
+.\Debug\ImageProcessingDoc.obj
+.\Debug\ImageProcessingView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ImageProcessing.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPD0.tmp"
+<h3>Output Window</h3>
+Compiling...
+DlgRecMatch.cpp
+Generating Code...
+Compiling...
+Enhance.cpp
+DWT.CPP
+FreTrans.cpp
+DlgReg.cpp
+ImageView.cpp
+ImageAnalysis.cpp
+restore.cpp
+ImageCoding.cpp
+cdib.cpp
+ImageProcessingDoc.cpp
+ImageProcessingView.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPD1.tmp" with contents
+[
+/nologo /o"Debug/ImageProcessing.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\SegApi.sbr
+.\Debug\DlgEhnLinTrans.sbr
+.\Debug\DlgEnhColor.sbr
+.\Debug\DlgHistShow1.sbr
+.\Debug\DlgMedian.sbr
+.\Debug\DlgRecMatch.sbr
+.\Debug\DlgSmooth.sbr
+.\Debug\Enhance.sbr
+.\Debug\DWT.SBR
+.\Debug\FreTrans.sbr
+.\Debug\DlgAftReg.sbr
+.\Debug\DlgReg.sbr
+.\Debug\Motion.sbr
+.\Debug\ImageView.sbr
+.\Debug\ImageAnalysis.sbr
+.\Debug\restore.sbr
+.\Debug\DlgArith.sbr
+.\Debug\DlgBitPlane.sbr
+.\Debug\DlgHuffman.sbr
+.\Debug\DlgShannon.sbr
+.\Debug\ImageCoding.sbr
+.\Debug\cdib.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\DIBPrcs.sbr
+.\Debug\ImageProcessing.sbr
+.\Debug\ImageProcessingDoc.sbr
+.\Debug\ImageProcessingView.sbr
+.\Debug\MainFrm.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\Liy\LOCALS~1\Temp\RSPD1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ImageProcessing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
